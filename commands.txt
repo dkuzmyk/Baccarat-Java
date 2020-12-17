@@ -8,7 +8,45 @@ nano <...> = edit file
 clear = clear terminal
 rmdir <...> = remove directory
 touch <...> = create file in directory
+ps = show processes
+top = process check
+kill %1 = kill program 1
+w = who
+sudo netstat -tupln = show internet process
+htop = show internet/pc status
+man <command> = manual
+cp f1/file.e f2/file2.e = copy
+. = current directory
+cat <file> = preview file
+mv folder1/ folder2/ = move from folder1 to folder2
+mv a.txt b.acb = rename
+prog1 | prog2 = pipe example; prog2(prog1(intp))
+echo = program with any output you specify echo "aa"
+echo "asd" > text.txt = overwrites text with asd
+echo "asd" >> text.txt = appends asd to text
+echo stdError 2> text.txt = appends stdErr to text
+a && b = if a is successful, run b
+cat file | cut -d: -f2 = takes output of file, cut by ':' takes right side
+cat file | sort -bf = takes output of file, sort in alphabetical
+cat file | grep <user> = finds what <user> said eg user:pog 
+grep user ./* = fins what user said everywhere
+
+-p = mkdir -p one/two/three 
+-r = rm -r -> recursive (remove/edit all underneath)
 
 
-
--r = remove all underneath
+### GITHUB ###
+git clone [url] = clone from url to pc
+git status = show status
+git add [file] = add file to commit
+git -m commit [file] = commit file
+git reset [file] = unstage a file and retain changes
+git branch [name] = make branch 
+git log = show commits
+git rm = remove file
+git mv [a] [b] = move file
+git remove add [alias] [url] = add url as an alias 
+git merge [url] = merge remove branch into current branch
+git push [branch] / -u origin main = move local branch to remove repository 
+git pull = fetch and merge commits from remote repository branch
+ 
