@@ -1,0 +1,14 @@
+pwd = print working directory
+cd <...> = open directory
+cd .. = go back
+mkdir <...> = make directory
+rm <...> = remove
+ls <...>  = list stuff
+nano <...> = edit file
+clear = clear terminal
+rmdir <...> = remove directory
+touch <...> = create file in directory
+
+
+
+-r = remove all underneath
